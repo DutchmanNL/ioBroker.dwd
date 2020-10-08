@@ -11,10 +11,23 @@
             "fr": "Avertissements météorologiques du service météorologique allemand (DWD)",
             "it": "Avvertenze meteorologiche dal servizio meteo tedesco (DWD)",
             "es": "Advertencias meteorológicas del Servicio meteorológico alemán (DWD)",
-            "pl": "Ostrzeżenia pogodowe od niemieckiego serwisu pogodowego (DWD)"
+            "pl": "Ostrzeżenia pogodowe od niemieckiego serwisu pogodowego (DWD)",
+            "zh-cn": "来自德国气象局（DWD）的天气警告"
         },
-        "version": "2.5.0",
+        "version": "2.5.1",
         "news": {
+            "2.5.1": {
+                "en": "Solve issue with RainRadar states",
+                "de": "Lösen Sie das Problem mit RainRadar-Status",
+                "ru": "Решить проблему с состояниями RainRadar",
+                "pt": "Resolva o problema com os estados RainRadar",
+                "nl": "Los het probleem op met RainRadar-staten",
+                "fr": "Résoudre le problème avec les états RainRadar",
+                "it": "Risolvi il problema con gli stati di RainRadar",
+                "es": "Resolver problema con los estados de RainRadar",
+                "pl": "Rozwiąż problem ze stanami RainRadar",
+                "zh-cn": "解决RainRadar状态问题"
+            },
             "2.5.0": {
                 "en": "Compact mode is supported",
                 "de": "Der Kompaktmodus wird unterstützt",

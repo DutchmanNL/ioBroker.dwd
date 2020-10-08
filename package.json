@@ -1,7 +1,7 @@
 {
   "name": "iobroker.dwd",
   "description": "Wetterwarnungen des Deutschen Wetterdienstes (DWD)",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "author": {
     "name": "bluefox",
     "email": "dogafox@gmail.com"
@@ -29,8 +29,10 @@
     "@iobroker/adapter-core": "^2.3.1"
   },
   "devDependencies": {
+    "@alcalzone/release-script": "^1.8.1",
     "chai": "^4.2.0",
     "gulp": "^4.0.2",
+    "axios": "^0.20.0",
     "mocha": "^7.1.1"
   },
   "bugs": {
@@ -38,7 +40,8 @@
   },
   "main": "main.js",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --exit"
+    "test": "node node_modules/mocha/bin/mocha --exit",
+    "release": "release-script"
   },
   "maintainers": [
     {
